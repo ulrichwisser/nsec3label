@@ -4,7 +4,7 @@ Compute nsec3 hash for a given label.
 ## Background
 
 Many TLD's and domain owners sign their zones with DNSSEC.
-To mitigate the risk of zone enumeration through the NSEC chain, RFC5155 https://tools.ietf.org/html/rfc5155 introduced NSEC3.
+To mitigate the risk of zone enumeration through the NSEC chain, [RFC5155](https://tools.ietf.org/html/rfc5155) introduced NSEC3.
 
 NSEC3 records work by first hashing all labels left of the zone name.
 
